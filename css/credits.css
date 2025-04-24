@@ -1,0 +1,105 @@
+body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding-top: 60px;
+            background: url("../img/img2.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        h1.heading{
+            font-size: xxx-large ;
+            color: #1f5b22;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            display: flex;
+            place-self: center;
+            align-items: center;
+            width: 600px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #ffffff8f;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+
+        .profile h1,p{
+            margin: 5px;
+            font-family: "math";
+        }
+        .info {
+            flex-grow: 1;
+        }
+        .badges span {
+            display: inline-block;
+            background: #59b07b;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
+            font-size: 14px;
+        }
+        .social-links {
+            display: flex;
+            align-items: center;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+        }
+        .social-links img {
+            width: 30px;  
+            height: 30px; 
+            margin-left: 5px;
+        }
+
+        .social-links .github-logo {
+            width: 30px;
+            height: 30px; 
+        }
+
+        .social-links a:last-child {
+            margin-right: 0; 
+        }
+        .info .badges, .social-links {
+            margin-top: 10px; 
+            font-family: monospace;
+        }
+
+       
+footer h4{
+    margin: 5px;
+    color: #1f5b22;
+}
+
+footer a{
+    text-decoration: none;
+}
+    footer {
+        font-family: sans-serif;
+      background-color: #ffffff96;
+      color: rgb(0, 0, 0);
+      padding:10px;
+      text-align: center;
+    }
+  
+    .footer h5 {
+      margin: 0px ;
+      text-align:center;
+      
+    }
